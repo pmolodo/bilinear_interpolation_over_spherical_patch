@@ -1,0 +1,13 @@
+# python byte-compiled / optimized files
+__pycache__/
+*.py[co]
+
+# Virtual environments
+.venv/
+
+# Linters / tools
+.mypy_cache/
+.bash_history
+
+# IDEs
+.idea/

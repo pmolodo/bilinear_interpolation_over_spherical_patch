@@ -1,0 +1,27 @@
+[tool.black]
+exclude = '''
+^/(
+  (
+    # root directories to exclude
+    \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+  )/
+  # any files to ignore would go here
+)'''
+experimental-string-processing = true
+preview = true
+line-length = 120
+
+[tool.isort]
+profile = 'black'
+lines_between_types = 1
+combine_as_imports = true
+
+[tool.ruff]
+line-length = 120
+ignore = [
+    "E402",  # Module level import not at top of file
+]

@@ -1,0 +1,19 @@
+{
+    "[bat]": {
+        "files.eol": "\r\n"
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.wordWrapColumn": 88,
+    "files.trimTrailingWhitespace": true,
+    "python.formatting.provider": "black",
+    "python.linting.mypyEnabled": true,
+    "rewrap.wrappingColumn": 88,
+    "ruff.organizeImports": false
+}

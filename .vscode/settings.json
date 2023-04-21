@@ -6,6 +6,10 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
+        "editor.rulers": [
+            80,
+            88,
+        ],
     },
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,

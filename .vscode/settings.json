@@ -16,6 +16,7 @@
     "editor.tabSize": 4,
     "editor.wordWrapColumn": 88,
     "files.trimTrailingWhitespace": true,
+    "python.analysis.typeCheckingMode": "off", // use mypy for typing, not pylance
     "python.formatting.provider": "black",
     "python.linting.mypyEnabled": true,
     "rewrap.wrappingColumn": 88,

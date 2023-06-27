@@ -9,16 +9,22 @@
 
 # Files or directories to be skipped. They should be base names, not
 # paths.
-ignore=CVS,
+ignore=.DS_Store,
+       .conan,
        .git,
        .hg,
        .mypy_cache,
-       __pycache__
+       .vs,
+       .vscode,
+       __pycache__,
+       CVS,
 
 # Add files or directories matching the regex patterns to the ignore-list. The
 # regex matches against paths and can be in Posix or Windows format.
 ignore-paths=^\.tox/.*$,
              ^\.venv/.*$
+             ^\_venv/.*$
+
 
 [MESSAGES CONTROL]
 

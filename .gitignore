@@ -3,11 +3,18 @@ __pycache__/
 *.py[co]
 
 # Virtual environments
+.tox/
 .venv/
+_venv/
 
 # Linters / tools
-.mypy_cache/
 .bash_history
+.conan
+.mypy_cache
 
 # IDEs
 .idea/
+.vs/
+
+# OS - specific
+.DS_Store

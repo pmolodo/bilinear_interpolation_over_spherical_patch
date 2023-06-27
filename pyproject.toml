@@ -3,14 +3,22 @@ exclude = '''
 ^/(
   (
     # root directories to exclude
-    \.git          # root of the project
+    \.DS_Store
+    | \.conan
+    | \.git
     | \.hg
     | \.mypy_cache
     | \.tox
     | \.venv
+    | \.vs
+    | \.vscode
+    | _venv
   )/
-  # any files to ignore would go here
-)'''
+  # any rooted files to ignore would go here
+)
+# unrooted paths here
+| __pycache__/
+'''
 experimental-string-processing = true
 preview = true
 line-length = 88
